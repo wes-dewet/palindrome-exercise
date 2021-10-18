@@ -19,4 +19,16 @@
             <class name="palindrome.PalindromeTest"/>
         </classes>
     </test> <!-- Test -->
+    <parameter name="inputWord" value="was it a cat i saw" />
+    <test name="Test wasitacatisaw" >
+        <classes>
+            <class name="palindrome.PalindromeTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <parameter name="inputWord" value="I did, did I?" />
+    <test name="Test drawocoward" >
+        <classes>
+            <class name="palindrome.PalindromeTest"/>
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->

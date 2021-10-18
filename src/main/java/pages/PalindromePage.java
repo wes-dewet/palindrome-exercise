@@ -19,10 +19,12 @@ public class PalindromePage {
     }
 
     public void clickSubmitButton(){
+
         driver.findElement(submitButton).click();
     }
 
     public String getPalindromeResult(){
+
         return driver.findElement(palindromeResultMessage).getText();
     }
 }

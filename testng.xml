@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Palindrome Valid Input" thread-count="10" parallel="tests"  >
+    <test name="Test abba" >
+        <parameter name="inputWord" value="abba" />
+        <classes>
+            <class name="palindrome.PalindromeTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test racecar" >
+        <parameter name="inputWord" value="racecar" />
+        <classes>
+            <class name="palindrome.PalindromeTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <parameter name="inputWord" value="drawocoward" />
+    <test name="Test drawocoward" >
+        <classes>
+            <class name="palindrome.PalindromeTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

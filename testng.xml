@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Palindrome Valid Input" thread-count="10" parallel="tests"  >
+<suite name="Palindrome Valid Input" thread-count="10"  parallel="tests">
     <test name="Test abba" >
         <parameter name="inputWord" value="abba" />
         <classes>
@@ -13,19 +13,7 @@
             <class name="palindrome.PalindromeTest"/>
         </classes>
     </test> <!-- Test -->
-    <parameter name="inputWord" value="drawocoward" />
-    <test name="Test drawocoward" >
-        <classes>
-            <class name="palindrome.PalindromeTest"/>
-        </classes>
-    </test> <!-- Test -->
-    <parameter name="inputWord" value="was it a cat i saw" />
-    <test name="Test wasitacatisaw" >
-        <classes>
-            <class name="palindrome.PalindromeTest"/>
-        </classes>
-    </test> <!-- Test -->
-    <parameter name="inputWord" value="I did, did I?" />
+    <parameter name="inputWord" value="drawocoward"/>
     <test name="Test drawocoward" >
         <classes>
             <class name="palindrome.PalindromeTest"/>
